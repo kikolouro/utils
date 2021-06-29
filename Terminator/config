@@ -1,0 +1,24 @@
+[global_config]
+  title_transmit_fg_color = "#d0d0d0"
+  title_transmit_bg_color = "#a0a0a0"
+  title_inactive_fg_color = "#d0d0d0"
+  title_inactive_bg_color = "#a7a7a7"
+  suppress_multiple_term_dialog = True
+[keybindings]
+  split_vert = <Primary><Shift>ccedilla
+[profiles]
+  [[default]]
+    cursor_color = "#d0d0d0"
+    foreground_color = "#d0d0d0"
+    palette = "#a0a0a0:#a43261:#006ca5:#007086:#6751a6:#913e88:#0061b1:#c6c6c6:#a7a7a7:#ff9fc9:#3bd6ff:#00ddf4:#d5b8ff:#ffa7f6:#93c9ff:#ffffff"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
+
