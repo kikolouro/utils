@@ -18,13 +18,25 @@
     ` sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" `
 
 3. oh-my-zsh Auto-suggestion. 
-    `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+    1. Clone git repository
+        `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
     
-    Edit config file.
-    `nano ~/.zshrc`
+    2. Edit config file.
+        `nano ~/.zshrc`
 
-    On plugins add.
-    `zsh-autosuggestions`
+    3. On plugins add.
+        `zsh-autosuggestions`
+
+## Shell Helper
+
+1. Copy **.funcoes.sh** to home folder
+    ```cp .funcoes.sh ~/```
+
+2. Give executable permisions on file
+    ```chmod +x ~/.funcoes.sh```
+
+3. Edit **~/.zshrc** and add the code below to end of the file:
+    ```source ~/.funcoes.sh```
 
 ## Miscellaneous
 
