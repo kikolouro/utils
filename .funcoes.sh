@@ -12,3 +12,7 @@ alias gc='git checkout'
 alias dosca='docker stop $(docker ps -a -q)'
 alias dorca='docker rm $(docker ps -a -q)'
 alias doria='docker rmi $(docker images -q)'
+
+#Misc
+
+alias shrug="echo \"¯\\_(ツ)_/¯\""
