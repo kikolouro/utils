@@ -14,5 +14,6 @@ alias dorca='docker rm $(docker ps -a -q)'
 alias doria='docker rmi $(docker images -q)'
 
 #Misc
-
+alias ll="ls -al"
+alias pwgen="python3 ~/util/pwgen.py"
 alias shrug="echo \"¯\\_(ツ)_/¯\""
