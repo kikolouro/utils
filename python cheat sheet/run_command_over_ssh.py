@@ -1,3 +1,6 @@
+import paramiko
+from decouple import config
+
 def runCommandOverSSH(command, server):
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
