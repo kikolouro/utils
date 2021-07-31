@@ -12,8 +12,9 @@ cp .zshrc ~/.zshrc
 cp .funcoes.sh ~/
 chmod +x ~/.funcoes.sh
 
-mkdir -p /usr/share/util
-cp pwgen.py /usr/share/util/pwgen.py
+sudo mkdir -p /usr/share/util
+sudo chown -R $USER:$USER /usr/share/util 
+cp util/pwgen.py /usr/share/util/pwgen.py
 
 wget https://github.com/dracula/gtk/archive/master.zip -P /tmp/master.zip
 
