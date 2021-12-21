@@ -40,5 +40,4 @@ def documentacaodns():
     formatter = HtmlFormatter(style="monokai",full=True,cssclass="codehilite")
     css_string = formatter.get_style_defs()
     md_css_string = "<style>" + css_string + "</style>"
-    md_template = md_css_string + md_template_string
-    return md_template
+    return md_css_string + md_template_string
